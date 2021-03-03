@@ -5,8 +5,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
-SECRET_KEY = '%=v%ytk*+1l0lebv##iaz!h5qsf!@$wc7u+99%i5#q%=f(nynf'
-DEBUG =False 
+SECRET_KEY = "%=v%ytk*+1l0lebv##iaz!h5qsf!@$wc7u+99%i5#q%=f(nynf"
+DEBUG = False 
 ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
