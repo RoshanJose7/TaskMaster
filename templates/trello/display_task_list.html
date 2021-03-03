@@ -1,0 +1,21 @@
+{% extends 'trello/base.html' %} {% block body %}
+<div class="jumbotron">
+  <h1>All Task Lists</h1>
+
+  <ul>
+    {% for list in lists %}
+    <li>{{ list.list_title }}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="jumbotron">
+  <h1>All Tasks</h1>
+
+  <ul>
+    {% for task in tasks%}
+    <li>{{ task.task_title }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %} {% block title %}Home Page{% endblock %}
